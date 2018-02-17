@@ -1,0 +1,63 @@
+.container,
+.container-fluid,
+.footer,
+.div1,
+.div2,
+.div3,
+.div4,
+.div5,
+.div6 {
+    background-color: white;
+    padding-top: 50px;
+    
+}
+
+.navbar {
+    margin: 0 20%;
+    
+}
+
+.nav-link {
+    color: black;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: 40px;
+    
+}
+
+a:hover{
+    color: orange;
+}
+.slide {
+    width: 100%;
+    height: 30%;
+}
+
+span {
+    color: darkorange;
+}
+
+.bold {
+    font-weight: 500;
+    color: black;
+}
+
+.price {
+    font-size: 60px;
+}
+
+.gray {
+    color: darkgray;
+}
+
+.purple {
+    color: purple;
+    font-weight: 500;
+}
+
+.display-4 {
+    font-size: 40px;
+    text-align: center;
+}
+
