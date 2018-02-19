@@ -1,0 +1,50 @@
+@media only screen and (max-width: 600px) {
+    #demo {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .display-4 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .display-4 {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .cols {
+        width: 80%;
+        margin: 0 10%;
+    }
+    
+   
+}
+
+@media only screen and (max-width: 900px) {
+    .float-left {
+        width: 60%;
+        margin: 20px 20%;
+    }
+    .kv {
+        width: 80px;
+        height: 90px;
+        margin: 0 45%;
+    } 
+    
+     .right {
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .headingCol {
+        margin: 10px 20%;
+    }
+}
+
+
