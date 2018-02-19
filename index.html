@@ -16,42 +16,44 @@
     
 <!-- ======================================= Nav ======================================================================= -->
     
- <nav class="navbar navbar-expand-sm ">
-  <!-- Brand/logo ====================================================================================== -->
+<nav class="navbar navbar-expand-sm navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <!-- Brand/logo ====================================================================================== -->
       <a class="navbar-brand" href="#">
         <img src="img/Logo-Logo-Black-with-White-Background.png" alt="logo" style="width:50px;">
       </a>
-  <!-- Links =========================================================================================== -->
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Home</a>
+      <button type="button" class="navbar-toggle navbar-toggler toggler-example purple darken-3" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false" aria-label="Toggle navigation"><span class="white-text"><i class="fa fa-bars fa-1x"></i></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-expand-sm navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <!-- Links =========================================================================================== -->
+        <li class="active nav-item"><a href="#" class="nav-link">Home</a></li>
+        <!-- Dropdown ========================================================================================= -->
+        <li class="dropdown nav-item">
+          <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">Plans and Services <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li class="nav-item"><a href="#" class="nav-link">Dedicated Servers</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">VSP Servers</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Shared Hosting</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Colocation</a></li>
+          </ul>
         </li>
-  <!-- Dropdown ========================================================================================= -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-            Plans and Services
-          </a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Dedicated Servers</a>
-            <a class="dropdown-item" href="#">VSP Servers</a>
-            <a class="dropdown-item" href="#">Shared Hosting</a>
-              <a class="dropdown-item" href="#">Colocation</a>
-          </div>
-        </li>
-          <li class="nav-item">
-          <a class="nav-link" href="#">Plans and Services</a>
-        </li>
-          <li class="nav-item">
-          <a class="nav-link" href="#">Infrasrtucture</a>
-        </li>
-          <li class="nav-item">
-          <a class="nav-link" href="#">News</a>
-        </li>
-          <li class="nav-item">
-          <a class="nav-link support" href="#">Support</a>
-        </li>
-     </ul>
-</nav> 
+        <li class="nav-item"><a href="#" class="nav-link">Plans and Services</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Infrasrtucture</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">News</a></li>
+        <li class="nav-item"><a href="#" class="nav-link support">Support</a></li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
     
 <!-- ======================================= Figure ==================================================================== -->    
 <div class="container-fluid">
@@ -219,6 +221,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <!-- Latest compiled JavaScript ============================================================ -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- Font Awesome ========================================================================== -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+
     
 </body>
 </html>
